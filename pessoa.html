@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var pessoa = {
+            nome: "Robson",
+            idade: 40,
+            profissao: "Advogado",
+
+            escrever(){
+                return "Olá, meu nome é "+ this.nome +", eu tenho " + this.idade + " anos e sou um " + this.profissao
+
+            },
+
+            endereco: {
+                rua:"Eduardo Ibanhes",
+                cidade: "Birigui",
+                estado: "SP"
+
+                
+            },
+
+            falar(){
+                return "Moro na rua " + this.endereco.rua + " na cidade " + this.endereco.cidade+ "-" + this.endereco.estado
+
+            }
+
+
+        }
+    </script>
+</body>
+</html>
